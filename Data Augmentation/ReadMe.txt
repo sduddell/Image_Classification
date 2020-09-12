@@ -1,1 +1,3 @@
-
+Deep neural networks require a large dataset but it is not always possible to have a big dataset while solving real problems. So, we use data augmentation to generate new images either by flipping, resizing, zooming the images.
+This folder includes a simple example on how to deal with less number of images. This file has a model to classify the basic problem of dogs and cats. There are only 40 training and 20 testing images. I have implemented data augmentation using keras to generate images with various sizes or scales etc. 
+Please note that this code is not similar to other "cats and dogs" data augmentation codes, methods like flow_from_directory and flow(x,y) are not used.
